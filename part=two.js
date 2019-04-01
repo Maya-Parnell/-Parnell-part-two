@@ -24,7 +24,7 @@ if (tempFahr <= 54 && eventType === 'semi-formal') {
     console.log(result)
 } else if (54 < tempFahr =< 70 && eventType === 'semi-formal') { 
     console.log(result)
-} else (tempFahr > 70 && eventType ='semi-formal') {
+} else (tempFahr > 70 && eventType === 'semi-formal') {
   console.log(result)
 }
 
