@@ -9,20 +9,20 @@ var clothingSugg = ["something comfy", "a polo", "a suit","coat", "a jacket", "n
  
  var num = clothingSugg.length;
 
-var result = 'Since it is '  + tempFahr + ' degrees and you are going to a ' + eventType + ' event, you should wear ' + clothingSugg[i] + ' and ' + clothingSugg[i] + '.';
+var result = 'Since it is ' + tempFahr + ' degrees and you are going to a ' + eventType + ' event, you should wear ' + clothingSugg[i] + ' and ' + clothingSugg[i] + '.';
 
 
 if (tempFahr <= 54 && eventType === 'casual') { 
     console.log(result)
-} else if (54 < tempFahr =< 70 && eventType === 'casual') { 
+} else if (54 < tempFahr <= 70 && eventType === 'casual') { 
     console.log(result) 
 } else (tempFarh > 70 && eventType === 'casual') {
-
+  console.log(result)
 }
 
 if (tempFahr <= 54 && eventType === 'semi-formal') { 
     console.log(result)
-} else if (54 < tempFahr =< 70 && eventType === 'semi-formal') { 
+} else if (54 < tempFahr <= 70 && eventType === 'semi-formal'); { 
     console.log(result)
 } else (tempFahr > 70 && eventType === 'semi-formal') {
   console.log(result)
@@ -31,11 +31,13 @@ if (tempFahr <= 54 && eventType === 'semi-formal') {
 
 if (tempFahr <= 54 && eventType === 'formal') { 
     console.log(result)
-} else if (54 < tempFahr =< 70 && eventType === 'formal') { 
+} else if (54 < tempFahr <= 70 && eventType === 'formal') { 
     console.log(result)
-} else (tempFahr > 70 && eventType ='formal') {
+} else (tempFahr > 70 && eventType ==='formal') {
   console.log(result)
 }
+
+var result = 'Since it is ' + tempFahr + ' degrees and you are going to a ' + eventType + ' event, you should wear ' + clothingSugg[i] + ' and ' + clothingSugg[i] + '.';
 
 	/*
   } else if (tempFahr > 54 && temp =< 70) {
